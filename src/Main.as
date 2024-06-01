@@ -9,8 +9,8 @@ bool HaveDeps = false;
 int nvgFont = 0;
 int MainWindowFlags = UI::WindowFlags::AlwaysAutoResize | UI::WindowFlags::NoCollapse;
 
-const string PluginIcon = Icons::ListOl;
-const string MenuTitle = "\\$000" + PluginIcon + "\\$z " + Meta::ExecutingPlugin().Name;
+const string PluginIcon = Icons::Kenney::Flag;
+const string MenuTitle = PluginIcon + "\\$z " + Meta::ExecutingPlugin().Name;
 
 // show the window immediately upon installation
 [Setting hidden]
