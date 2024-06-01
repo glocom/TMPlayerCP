@@ -9,6 +9,8 @@ class GameInterface {
             RenderRunning();
         } else if (State::IsError) {
             RenderError();
+        } else if (State::IsNotRunning) {
+            RenderIsNotRunning();
         } else {
             UI::Text("\\$f80UNKNOWN STATE!");
         }
@@ -61,5 +63,9 @@ class GameInterface {
         if (UI::Button("Reset Plugin")) {
             State::HardReset();
         }
+    }
+
+    void RenderIsNotRunning() {
+        UI::Text("Initializing...");
     }
 }

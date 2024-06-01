@@ -2,7 +2,7 @@
 name     = "Player CPs"
 author   = "Glocom"
 category = "Race"
-version  = "0.0.1"
+version  = "0.0.2"
 siteid   = 557
 
 [script]
