@@ -1,9 +1,9 @@
 [meta]
 name     = "Player CPs"
 author   = "Glocom"
-category = ""
+category = "Race"
 version  = "0.0.1"
-siteid   = 442
+siteid   = 557
 
 [script]
 #__DEFINES__
