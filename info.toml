@@ -1,0 +1,10 @@
+[meta]
+name     = "Player CPs"
+author   = "Glocom"
+category = ""
+version  = "0.0.1"
+siteid   = 442
+
+[script]
+#__DEFINES__
+dependencies = ["BetterRoomManager", "MLHook", "MLFeedRaceData"]
